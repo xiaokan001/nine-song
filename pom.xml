@@ -12,6 +12,8 @@
     <!-- 指定模块, 指定对应的子项目 -->
     <modules>
         <module>ninesong-auth</module>
+        <module>ninesong-gateway</module>
+        <module>ninesong-common</module>
     </modules>
 
     <properties>
