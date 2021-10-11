@@ -14,6 +14,7 @@
         <module>ninesong-auth</module>
         <module>ninesong-gateway</module>
         <module>ninesong-common</module>
+        <module>ninesong-service</module>
     </modules>
 
     <properties>
