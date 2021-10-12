@@ -8,7 +8,7 @@ spring:
       discovery:
         server-addr: 101.34.148.140:8848
   datasource:
-    url:
-    username:
-    password:
+    url: jdbc:mysql://101.34.148.140:3306/nine_song
+    username: root
+    password: admin2588
     driver-class-name: com.mysql.cj.jdbc.Driver
