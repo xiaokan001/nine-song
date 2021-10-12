@@ -1,14 +1,3 @@
-server:
-  port: 9999
 spring:
-  application:
-    name: ninesong-gateway
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 101.34.148.140:8848
-  datasource:
-    url:
-    username:
-    password:
-    driver-class-name: com.mysql.cj.jdbc.Driver
+  profiles:
+    active: dev
