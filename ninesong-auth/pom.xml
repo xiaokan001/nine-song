@@ -12,6 +12,11 @@
     <artifactId>ninesong-auth</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>com.ninesong</groupId>
+            <artifactId>ninesong-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!-- 父项目中我们已经指定了对应的版本, 这里直接使用就行, 不用在引用版本 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -21,6 +26,20 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-config</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security.oauth</groupId>
+            <artifactId>spring-security-oauth2</artifactId>
+            <version>2.3.4.RELEASE</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
     <build>
